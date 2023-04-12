@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.cipher_task">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="cipher_task"
         android:name="${applicationName}"
